@@ -1,5 +1,6 @@
 <script>
-	import Nav from '$components/Nav.svelte';
+  import Nav from '$components/Nav.svelte';
+  
 </script>
 
 <main>
@@ -7,8 +8,6 @@
   <slot></slot>
 </main>
 
-<style global lang="postcss">
-  @tailwind base;
-  @tailwind components;
-  @tailwind utilities;
+<style global lang="scss">
+@import 'bulma/bulma.sass';
 </style>
